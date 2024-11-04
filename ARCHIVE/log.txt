@@ -1,0 +1,130 @@
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'HE', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'HE', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'RF', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'MX', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'HX', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'RF', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+Set parameter GURO_PAR_SPECIAL
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'HX', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+Set parameter GURO_PAR_SPECIAL
+Set parameter GURO_PAR_SPECIAL
+Set parameter GURO_PAR_SPECIAL
+Set parameter GURO_PAR_SPECIAL
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'ME', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'MX', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+Set parameter GURO_PAR_SPECIAL
+Set parameter GURO_PAR_SPECIAL
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'ME', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+Set parameter GURO_PAR_SPECIAL
+Set parameter GURO_PAR_SPECIAL
+Set parameter GURO_PAR_SPECIAL
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Set parameter TokenServer to value "flexlm.supercloud.mit.edu"
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'HE', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 485.8049852848053
+MIP Gap (%): 0.8763885761974087
+Total Energy cost: 2.569E+10
+best lower bound: 2.547E+10
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'HX', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 648.3213491439819
+MIP Gap (%): 0.7762131999822847
+Total Energy cost: 2.310E+10
+best lower bound: 2.292E+10
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'HX', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 828.2869710922241
+MIP Gap (%): 0.9876506962299408
+Total Energy cost: 1.582E+10
+best lower bound: 1.566E+10
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'MX', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 980.4492998123169
+MIP Gap (%): 0.9983334313768888
+Total Energy cost: 1.791E+10
+best lower bound: 1.773E+10
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'RF', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 1022.0731961727142
+MIP Gap (%): 0.9075653200057996
+Total Energy cost: 2.348E+10
+best lower bound: 2.327E+10
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'ME', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 1444.8130824565887
+MIP Gap (%): 0.8959039209943559
+Total Energy cost: 1.995E+10
+best lower bound: 1.977E+10
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'HE', '0.8', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 1634.9549145698547
+MIP Gap (%): 0.9249406181640645
+Total Energy cost: 1.790E+10
+best lower bound: 1.773E+10
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'MX', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 21229.31292271614
+MIP Gap (%): 0.9559235995792396
+Total Energy cost: 2.647E+10
+best lower bound: 2.621E+10
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'RF', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 29039.0682656765
+MIP Gap (%): 0.6743051534673598
+Total Energy cost: 3.192E+10
+best lower bound: 3.171E+10
+Num of Vars: 1097280
+Num of Int Vars: 158
+Num of Constraints: 805370
+['Main.py', 'Representative_Days', '17', '2003', '2003', '30', '4', 'ME', '0.95', '0.0', '0.01', '12', '0', '1', '1', '4', 'no-metal-air', '1', '1']
+
+
+ Elapsed time (seconds): 36194.49845123291
+MIP Gap (%): 0.9950404809514319
+Total Energy cost: 2.850E+10
+best lower bound: 2.822E+10
