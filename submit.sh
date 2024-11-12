@@ -4,4 +4,4 @@
 module load anaconda/2023b
 
 
-python test.py
+python Main.py

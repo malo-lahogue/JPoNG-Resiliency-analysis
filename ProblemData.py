@@ -102,7 +102,7 @@ df_ePlt = pd.read_csv(Pow_dir+f"/{Setting.Power_network_size}-Nodes"+'/Plants_No
 df_br = pd.read_csv(Pow_dir+f"/{Setting.Power_network_size}-Nodes"+'/Transmission_Lines.csv')
 #df_eDem = pd.read_csv(Pow_dir+f"/{Setting.Power_network_size}-Nodes"+'/Power_Load/Electricity_Load_Historical_BaseYear2020.csv');
 df_eDem = pd.read_csv(Pow_dir+f"/{Setting.Power_network_size}-Nodes/Power_Load/Electricity_Load_{Setting.electrification_scenario}_BaseYear{Setting.dispatch_year}.csv")
-print(df_eDem)
+#print(df_eDem)
 df_solar = pd.read_csv(Pow_dir+f"/{Setting.Power_network_size}-Nodes/Availability_Factor/AvailabilityFactors_Solar_{Setting.dispatch_year}.csv")
 df_wind_onshore = pd.read_csv(Pow_dir+f"/{Setting.Power_network_size}-Nodes/Availability_Factor/AvailabilityFactors_Wind_Onshore_{Setting.dispatch_year}.csv")
 df_wind_offshore = pd.read_csv(Pow_dir+f"/{Setting.Power_network_size}-Nodes/Availability_Factor/AvailabilityFactors_Wind_Offshore_{Setting.dispatch_year}.csv")
@@ -459,38 +459,6 @@ for i in range(len(df_svl_params)):
     svl.inv_coef = (Other_input.WACC/(1-s1));
 
     SVLs.append(svl);
-
-#%% Quebec Hydro
-# hydro import/export data
-df_qc_dem = pd.read_csv(DATA_path+f'/Hydro-QC/QC_demand.csv');
-df_qc_inflow = pd.read_csv(DATA_path+f'/Hydro-QC/QC-hydro-inflow-rates.csv');
-df_qc_other_params = pd.read_csv(DATA_path+f'/Hydro-QC/Other-hydro-params.csv');
-class Quebec:
-    demand = [];
-    init_en_cap = []; 
-    max_en_cap = [];
-    max_pow_cap = [];
-    NE_nodes = [];
-    line_max_flow = [];
-    ramp_rate = [];
-    min_output_rate = [];
-    inflow_rate = [];
-    FOM_cost = [];
-    NE_node2line = [];
-
-QCdat = Quebec();
-QCdat.demand = df_qc_dem['Demand (MW)-90%fromHydro'].to_numpy();
-QCdat.inflow_rate = df_qc_inflow['Reservoir_hydro_existing_QC'].to_numpy();
-QCdat.init_en_cap = df_qc_other_params['init_energy_cap (MWh)'][0];
-QCdat.max_en_cap = df_qc_other_params['max_energy_cap (MWh)'][0];
-QCdat.max_pow_cap = df_qc_other_params['max_power_cap (MW)'][0];
-QCdat.min_output_rate =  df_qc_other_params['min_output_rate'][0];
-QCdat.ramp_rate =  df_qc_other_params['ramp_rate'][0];
-QCdat.NE_nodes = df_qc_other_params['nodes_connected'].to_numpy();
-QCdat.line_max_flow = df_qc_other_params['max_flow_cap(MW)'].to_numpy();
-QCdat.FOM_cost = df_qc_other_params['FOM ($/MW/yr)'][0];
-QCdat.NE_node2line = {5:0,8:1};
-
 
 
 #%% delete unnecessary data from the workspace
